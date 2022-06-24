@@ -103,17 +103,29 @@
     background-color: #FFFFFF;
 }
 .container {
-    padding-left: 15px;
-    margin: 0 auto;
-    width: 1230px;
+    width: 1200px;
+    margin-left: auto;
+    margin-left: auto;
+    padding: 0 15px;
     outline: 2px solid tomato;
 }
 
-.main.nav {
+
+.header-nav {
     display: flex;
     align-items: center;
-}
+    justify-content: flex-end;
+ }
 
+ .site-nav {
+    display: flex;
+    align-items: center;
+ }
+
+ .contact-list {
+    display: flex;
+    align-items: center;
+ }
 
 .hero {
     background-color: #212121;

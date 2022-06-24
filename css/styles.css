@@ -13,7 +13,7 @@
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
 
 }
 
@@ -25,10 +25,40 @@
     line-height: 1.19;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    
+ }
+
+ .header.container {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .header-nav {
+    display: flex;
+    align-items: center;
+ }
+
+ .site-nav.list {
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+ }
+ 
+ .contact-list.list {
+    display: flex;
+    align-items: center;
+ }
+
 .list {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .site-nav a {
@@ -46,15 +76,12 @@
    letter-spacing: 0.02em;}
   
 
-
-
 .site-nav.list:last-child {
     margin-right: 0;  
 }
 
-
-.site-nav.list {
-   display: flex;
+.division {
+    di
 }
 
 .site-nav .link.current {
@@ -65,17 +92,10 @@
     color: var(--accent-color);
 }
 
-.address {
-    display: flex;
-}
-
-
 .contacts-nav:hover,
 .contacts-nav:focus {
     color: var(--accent-color);
 }
-
-
 
 .contact-nav,
 .email-nav {
@@ -102,30 +122,6 @@
 .page .container {
     background-color: #FFFFFF;
 }
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-left: auto;
-    padding: 0 15px;
-    outline: 2px solid tomato;
-}
-
-
-.header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
- }
-
- .site-nav {
-    display: flex;
-    align-items: center;
- }
-
- .contact-list {
-    display: flex;
-    align-items: center;
- }
 
 .hero {
     background-color: #212121;
@@ -196,6 +192,7 @@
 .subtitle {
     color: var(--primary-text-color) ;
     font-family: 'Roboto';
+    margin-right: 30px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -206,6 +203,7 @@
 .title {
     color: var(--title-text-color);
     font-family: 'Roboto';
+    margin-left: 30px;
     margin-top: 94px;
     font-weight: 700;
     font-size: 36px;

@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" integrity="sha512-1bhKtVC+Rwemskiy3JPDT3u1PjW8B8oH7aFL+fS9Ju0DR/oAp3ttKPIlVWRMdEuhwZ6Lz3ds48hAwz7unUQXdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -15,41 +17,46 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
       <a href="#" class="logo"><span class="logo-color">Web</span>Studio</a>
-      <nav>
         <ul class="site-nav list">
           <li><a href="./index.html" class="link">Cтудия</a></li>
           <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
+      <ul class="contact-list">
+          <li class="item-list"><a href="mailto:info@devstudio.com" class="email-nav">info@devstudio.com</a></li>
+          <li class="item-list"><a href="tel:+380961111111" class="contact-nav type">+380961111111</a></li>
+      </ul>
       </nav>
-      <address>
-          <a href="mailto:info@devstudio.com" class="email-nav header">info@devstudio.com</a></li>
-          <a href="tel:+380961111111" class="contact-nav type">+380961111111</a></li>
-        </address>
+      </div>
     </header>
     <main>
       <section>
+        <div class="container">
         <h1 class="title-menu">Меню</h1>
-        <ul class="list">
-          <li><button type="button" class="button-nav">Все</button></li>
-          <li><button type="button" class="button-nav">Веб-сайты</button></li>
-          <li><button type="button" class="button-nav">Приложения</button></li>
-          <li><button type="button" class="button-nav">Дизайн</button></li>
+        <ul class="button-list">
+          <li class="button-secondary"><button type="button" class="button-nav">Все</button></li>
+          <li class="button-secondary"><button type="button" class="button-nav">Веб-сайты</button></li>
+          <li class="button-secondary"><button type="button" class="button-nav">Приложения</button></li>
+          <li class="button-secondary"><button type="button" class="button-nav">Дизайн</button></li>
           <li><button type="button" class="button-nav">Маркетинг</button></li>
         </ul>
+        </div>
       </section>
       <section>
+        <div class="container">
         <h1 class="projects">Проекти</h1>
-        <ul class="list">
-          <li>
+        <ul class="company-list">
+          <li class="img">
             <a href=""></a>
             <img src="./images/img1.jpg" alt="Технокряк" width="370" />
             <h2 class="header">Технокряк</h2>
             <p class="subhead">Веб-сайт</p>
           </li>
-          <li>
+          <li class="img">
             <a href=""></a>
             <img src="./images/img2.jpg" alt="Постер" width="370" />
             <h2 class="header">Постер New Orlean vs Golden Star</h2>
@@ -61,13 +68,13 @@
             <h2 class="header">Ресторан Seafood</h2>
             <p class="subhead">Приложение</p>
           </li>
-          <li>
+          <li class="img">
             <a href=""></a>
             <img src="./images/img4.jpg" alt="Проект прайм" width="370" />
             <h2 class="header">Проект Prime</h2>
             <p class="subhead">Маркетинг</p>
           </li>
-          <li>
+          <li class="img">
             <a href=""></a>
             <img src="./images/img5.jpg" alt="Проект коробки" width="370" />
             <h2 class="header">Проект Boxes</h2>
@@ -83,13 +90,13 @@
             <h2 class="header">Inspiration has no Borders</h2>
             <p class="subhead">Веб-сайт</p>
           </li>
-          <li>
+          <li class="img">
             <a href=""></a>
             <img src="./images/img7.jpg" alt="Издание" width="370" />
             <h2 class="header">Издание Limited Edition</h2>
             <p class="subhead">Дизайн</p>
           </li>
-          <li>
+          <li class="img">
             <a href=""></a>
             <img src="./images/img8.jpg" alt="Проект Лаб" width="370" />
             <h2 class="header">Проект LAB</h2>
@@ -102,19 +109,22 @@
             <p class="subhead">Приложение</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="description">
+      <div class="container">
       <a href="#" class="logo-white">
         <span class="logo-color">Web</span>
         Studio
       </a>
-      <address>
-        <a href="#" class="street-nav">г. Киев, пр-т Леси Украинки, 26</a>
-        <br />
-        <a href="mailto:info@example.com" class="emal-nav">info@example.com</a>
-        <br />
-        <a href="tel:+380991111111" class="phone-nav">+380991111111</a>
+      </div>
+      <address class="address">
+        <ul class="list-address">
+        <li class="address-street"><a href="#" class="street-nav">г. Киев, пр-т Леси Украинки, 26</a></li>
+        <li class="address-street"><a href="mailto:info@example.com" class="emal-nav">info@example.com</a></li>
+        <li class="address=street"><a href="tel:+380991111111" class="phone-nav">+380991111111</a></li>
+      </ul>
       </address>
     </footer>
   </body>

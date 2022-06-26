@@ -31,13 +31,13 @@ p {
   color: inherit;
 }
 
-img {
+.img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-address {
+.address {
     font-style: normal;
 }
 
@@ -64,7 +64,7 @@ address {
 .container {
     width: 1200px;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px;
     
  }
@@ -88,9 +88,9 @@ address {
  
  .contact-list {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     align-items: center;
+    margin-left: auto;
+
  }
 
  .item-list {
@@ -113,7 +113,6 @@ address {
 .site-nav a {
    color: var(--title-text-color);
    font-family: 'Roboto';
-   margin-right: 40px;
    display: block;
    padding-top: 32px;
    padding-bottom: 32px;
@@ -124,6 +123,10 @@ address {
    text-decoration: none;
    letter-spacing: 0.02em;}
   
+
+.item {
+    margin-right: 40px;
+}
 
 .site-nav.list:last-child {
     margin-right: 0;  
@@ -176,19 +179,15 @@ address {
 
 .hero {
     background-color: #212121;
-    padding: 200px 432px;
-    padding-bottom: 0;
-    width: 1600px;
-    left: 0px;
-    top: 80px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    
 
 }
 
 .title-hero {
     color: var(--title-hero);
     font-family: 'Roboto';
-    margin-top: 0;
-    margin-bottom: 59px;
     background-color: var(--title-text-color);
     font-style: normal;
     font-weight: 900;
@@ -213,14 +212,19 @@ address {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    display: block;
+    margin: 0 auto;
 
 }
-.benefits {visibility: hidden;
+.benefits {
     color:var(--title-hero)
 }
 
+.benefits {
+    display: none;
+}
 .section {
-    padding-top: 67px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 .section.no-padding {
@@ -277,13 +281,19 @@ address {
 
 .images {
     margin-right: 30px;
+    
    
+}
+
+.co-worker {
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .title-team {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    margin-top: 188px;
+    padding-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -313,7 +323,7 @@ address {
     color: var(--primary-text-color);
     font-family: 'Roboto';
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 124px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -338,7 +348,6 @@ address {
     background-color: var(--title-text-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-top: 124px;
     color: var(--title-text-color);
 }
 
@@ -346,10 +355,6 @@ address {
     padding-top: 20px;
     margin: 0;
     
-}
-
-.list-address {
-    margin-left: 122px;
 }
 
 

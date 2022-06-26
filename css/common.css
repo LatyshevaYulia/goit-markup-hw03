@@ -4,6 +4,7 @@
     --accent-color:#2196F3;
     --title-hero:#FFFFFF;
     --button:#F5F4FA;
+    --border-bottom:#ECECEC;
  
  }
 
@@ -17,7 +18,7 @@
    box-sizing: inherit;
 }
 
-}
+
 h1,
 h2,
 h3,
@@ -34,13 +35,13 @@ p {
   color: inherit;
 }
 
-img {
+.img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-address {
+.address {
     font-style: normal;
 }
 
@@ -48,7 +49,7 @@ address {
  .container {
     width: 1200px;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px;
     
  }
@@ -70,11 +71,15 @@ address {
  
  .contact-list {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     align-items: center;
+    margin-left: auto;
  }
 
+ .line {
+    background-color: var(--border-bottom);
+    width: 1600px;
+    
+ }
  .item-list {
     list-style: none;
     margin-right: 50px;
@@ -142,6 +147,10 @@ address {
    
 }
 
+.item {
+    margin-right: 40px;
+}
+
 .site-nav .link.current {
     color: var(--accent-color);
 }
@@ -202,9 +211,16 @@ address {
     color: var(--accent-color);
 }
 
+.menu {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
 
-.title-menu {visibility: hidden;
+
+
+.title-menu {
     color: var(--title-hero);
+    display: none;
 }
 
 .button-nav {
@@ -229,21 +245,31 @@ address {
     background-color: var(--accent-color);
 }
 
-.projects {visibility: hidden;
+.projects-company {
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.projects {
     color: var(--title-hero);
+    display: none;
+}
+
+.project-list {
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .header {
     color: #212121;
     font-family: 'Roboto';
     display: block;
-    padding-top: 20px;
-    padding-bottom: 4px;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    
 
 }
 
@@ -251,7 +277,6 @@ address {
     color: var(--primary-text-color);
     font-family: 'Roboto';
     display: block;
-    padding-bottom: 50px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

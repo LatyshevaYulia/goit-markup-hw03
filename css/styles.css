@@ -180,7 +180,7 @@ p {
 .hero {
     background-color: #212121;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     
 
 }
@@ -229,7 +229,7 @@ p {
 }
 .section.no-padding {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 188px;
 
 }
 .section-title {
@@ -293,7 +293,6 @@ p {
 .title-team {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    padding-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -310,7 +309,6 @@ p {
 .team {
     color: black;
     font-family: 'Roboto';
-    padding-top: 30px;
     padding-bottom: 0px;
     font-weight: 500;
     font-size: 16px;
@@ -319,10 +317,14 @@ p {
     text-align: center;
     }
 
+.team-list {
+    padding-top: 30px;
+    padding-bottom: 30px ;
+}
+
 .team-name {
     color: var(--primary-text-color);
     font-family: 'Roboto';
-    padding-top: 10px;
     padding-bottom: 124px;
     font-style: normal;
     font-weight: 400;
@@ -354,7 +356,7 @@ p {
 .address {
     padding-top: 20px;
     margin: 0;
-    
+      
 }
 
 
@@ -363,7 +365,10 @@ p {
     
 }
 
-
+.list-address {
+    margin: 0;
+    padding: 0;
+}
 
 .street-nav {
     color: var(--title-hero);

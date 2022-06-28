@@ -21,8 +21,7 @@ h3,
 h4,
 h5,
 h6,
-p {
-    margin-top:0;
+{margin top:0;
 }
 
 
@@ -150,7 +149,6 @@ p {
 .email-nav {
     color: var(--primary-text-color);
     font-family: 'Roboto';
-    margin-left: 331px;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -228,13 +226,16 @@ p {
     padding-bottom: 94px;
 }
 .section.no-padding {
-    padding-top: 0;
-    padding-bottom: 188px;
+    padding-bottom: 94px;}
 
+
+.co-worker {
+    padding-top: 94px;
+    padding-bottom: 94px; 
 }
+
 .section-title {
     color: var(--title-text-color);
-    margin-top: 0;
     margin-bottom: 10px;
     font-family: 'Roboto';
     font-weight: 700;
@@ -259,7 +260,6 @@ p {
     color: var(--title-text-color);
     font-family: 'Roboto';
     margin-left: 30px;
-    margin-top: 94px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -285,10 +285,7 @@ p {
    
 }
 
-.co-worker {
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
+
 
 .title-team {
     color: var(--title-text-color);
@@ -309,7 +306,7 @@ p {
 .team {
     color: black;
     font-family: 'Roboto';
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -325,7 +322,6 @@ p {
 .team-name {
     color: var(--primary-text-color);
     font-family: 'Roboto';
-    padding-bottom: 124px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

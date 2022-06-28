@@ -53,6 +53,7 @@ p {
  .header-nav {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC
  }
 
  .site-nav {
@@ -63,7 +64,7 @@ p {
  .contact-list {
     display: flex;
     align-items: center;
-    margin-left: auto;
+   
  }
 
  .line {
@@ -118,7 +119,7 @@ p {
 .button-list {
     list-style:none;
     display: flex;
-    margin-left: 200px;
+    justify-content: center;
     
 
 }
@@ -176,7 +177,6 @@ p {
 .email-nav {
     color: var(--primary-text-color);
     text-decoration: none;
-    margin-left: 331px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -204,7 +204,6 @@ p {
 
 .menu {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 
@@ -246,8 +245,11 @@ p {
 }
 
 .project-list {
-    padding: 50px 20px;
-    padding-bottom: 0px;
+    padding: 20px 24px;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+   
 }
 
 .header {

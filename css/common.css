@@ -44,15 +44,20 @@ h6{
     font-style: normal;
 }
 
+.header {
+    border-bottom: 1px solid #ECECEC;   
+}
+
  .header.container {
     display: flex;
     align-items: center;
+
  }
 
  .header-nav {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC
+   
  }
 
  .site-nav {
@@ -63,6 +68,7 @@ h6{
  .contact-list {
     display: flex;
     align-items: center;
+    padding: 0px;
    
  }
 
@@ -159,6 +165,7 @@ h6{
 
 .img {
     margin-right: 30px;
+    margin-bottom: 30px;;
     
 }
 
@@ -273,7 +280,7 @@ h6{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .description {
@@ -336,7 +343,8 @@ h6{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+    margin:0px;}
 
 
 

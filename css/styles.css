@@ -86,14 +86,13 @@ h6{margin-top:0;
  
  .contact-list {
     display: flex;
-    align-items: center;
     margin-left: auto;
+    padding: 0px;
 
  }
 
  .item-list {
     list-style: none;
-    margin-right: 50px;
     align-items: center;
  }
 
@@ -157,7 +156,7 @@ h6{margin-top:0;
 }
 
 .contact-nav.type {
-    margin-left: 50px;
+    margin-left: 0;
 
 }
 
@@ -222,7 +221,7 @@ h6{margin-top:0;
 }
 .section {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 0px;
 }
 .section.no-padding {
     padding-bottom: 94px;}
@@ -231,6 +230,7 @@ h6{margin-top:0;
 .co-worker {
     padding-top: 94px;
     padding-bottom: 94px; 
+    display: block;
 }
 
 .section-title {
@@ -306,6 +306,7 @@ h6{margin-top:0;
     color: black;
     font-family: 'Roboto';
     padding-bottom: 10px;
+    margin: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -327,6 +328,7 @@ h6{margin-top:0;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin: 0px;
 }
 
 .logo-white {
@@ -406,6 +408,7 @@ h6{margin-top:0;
     line-height: 1.71;
     text-decoration: none;
     letter-spacing: 0.03em;
+    margin: 0;
 }
 
 .phone-nav:hover,

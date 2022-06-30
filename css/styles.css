@@ -228,8 +228,8 @@ h6{margin-top:0;
 
 
 .co-worker {
-    padding-top: 94px;
-    padding-bottom: 94px; 
+    padding-top: 0px;
+    padding-bottom: 0px; 
     display: block;
 }
 
@@ -289,6 +289,7 @@ h6{margin-top:0;
 .title-team {
     color: var(--title-text-color);
     font-family: 'Roboto';
+    padding-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
